@@ -58,7 +58,7 @@ class MessageController {
         return this.msg;
     }
 }
-/*@RestController
+@RestController
 class ReservationController {
 
     @Autowired
@@ -68,7 +68,7 @@ class ReservationController {
     public Collection<Reservation> getResurvations() {
         return this.reservationRepository.findAll();
     }
-}*/
+}
 
 @Entity
 class Reservation {
