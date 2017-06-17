@@ -50,7 +50,7 @@ class StartupSeeder implements CommandLineRunner {
 @RefreshScope
 @RestController
 class MessageController {
-    @Value("${test.configuration}")
+    @Value("Test")
     private String msg;
 
     @RequestMapping("msg")
